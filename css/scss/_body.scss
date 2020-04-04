@@ -1,0 +1,38 @@
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container_2{
+  width: 100%;
+  max-width: 1520px;
+  height: 50px;
+  display: flex;
+}
+
+.row,
+.row .foodpic{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* height: 100%; */
+}
+
+/* 4 column bootstrap */
+.col4{
+  width: 370px;
+  min-height: 100px;
+  margin-bottom: 20px;
+  
+  flex: 0 1 calc(33.33% - 20px);
+
+}
+
+.col2{
+  width: 470px;
+  min-height: 100px;
+  margin-bottom: 20px;
+
+  /* flex: 0 1 calc(42% - 20px); */
+}

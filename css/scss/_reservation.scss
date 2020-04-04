@@ -1,0 +1,147 @@
+.page-reservation .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.table img{
+  width: 370px;
+  height: 267px;
+}
+
+.page-reservation h2{
+  margin-bottom: 20px;
+}
+
+.table{
+  display: flex;
+}
+
+.text_table{
+  width: 360px;
+  margin-left: 30px;
+  color: #969696;
+}
+
+.text_table h4,
+.reserv h4{
+  font: lighter 18px/20px Open Sans, sans-serif;
+}
+
+.text_table p:nth-child(1),
+.reserv p:nth-child(1){
+  margin-top: 25px;
+}
+
+.text_table p,
+.reserv p{
+  font: lighter 14px/20px Open Sans, sans-serif;
+  margin-top: 20px;
+}
+
+
+.useful{
+  margin-top: 45px;
+}
+
+.reserv{
+  color: #969696;
+  width: 760px;
+  margin-bottom: 50px;
+}
+
+.reserv a{
+  margin-top: 25px;
+}
+
+.registration{
+  width: 365px;
+  height: 665px;
+}
+.registration>p{
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.datareg{
+  margin-top: 5px;
+}
+
+.reg1,
+.datareg p{
+  width: 365px;
+  height: 30px;
+}
+.datareg p{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reg1{
+  margin-bottom: 10px;
+}
+
+.calendar{
+  width: 280px;
+  height: 30px;
+}
+
+.above18{
+  display: flex;
+  justify-content: space-between;
+}
+.above18 select{
+  width: 95px;
+  height: 30px;
+  margin-left: 15px;
+  padding-left: 8px;
+}
+
+.buttoms2{
+  margin-top: 25px;
+  width: 365px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.buttoms2 button{
+  border: 1px solid #d3d2d3;
+  background: #fff;
+  width: 98px;
+  height: 38px;
+  font: bold 20px Economica, sans-serif;
+  color: #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.reg p{
+  font: 14px Open Sans, sans-serif;
+  color: #737272;
+  margin-bottom: 15px;
+}
+.reg textarea{
+  resize: none;
+  margin-top: 65px;
+  width: 365px;
+  height: 145px;
+  background: #fdfdfd;
+  border: 1px solid #eae8e9;
+  padding-left: 15px;
+  padding-top: 15px;
+  font: 14px Open Sans, sans-serif;
+  color: #737272;
+}
+
+.reg input{
+  background: #fff;
+  border: 1px solid #eae8e9;
+  padding-left: 15px;
+  font: 14px Open Sans, sans-serif;
+  color: #737272;
+}
+.datareg input{
+  padding-left: 20px;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Economica|Open+Sans:300,400&display=swap');
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url(../fonts/bebasneuebold.ttf);
+}
+@font-face {
+  font-family: Bebas Neue;
+  src: url(../fonts/bebasneuebold.eot);
+}
+
+@import 'scss/media';
+
+@import 'scss/reset';
+
+/* Для всех страниц */
+@import 'scss/body';
+
+@import 'scss/header';
+
+main{
+  flex: 1 0 auto;
+  min-height: 400px;
+  padding-top: 50px;
+}
+
+@import 'scss/footer';
+/* **************** */
+
+/* INDEX CSS */
+@import 'scss/index';
+/* END INDEX CSS */
+
+/* MENU CSS */
+@import 'scss/menu';
+/* END MENU CSS */
+
+/* RESERVATION CSS */
+@import 'scss/reservation';
+/* END RESERVATION CSS */
+
+/* BLOG CSS */
+@import 'scss/blog';
+/* END BLOG CSS */
+
+/* CONTACTS CSS */
+@import 'scss/contacts';
+/* END CONTACTS CSS */
+
+

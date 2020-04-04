@@ -1,0 +1,154 @@
+.left-side{
+  width: 672px;
+  height: 100%;
+}
+
+.right-side{
+  width: 370px;
+  height: 100%;
+}
+
+.left-side h4{
+  font: bold 24px Open Sans, sans-serif;
+  color: #535151;
+  margin-bottom: 20px;
+}
+.left-side img{
+  margin-bottom: 25px;
+}
+.left-side p{
+  font: lighter 14px Open Sans, sans-serif;
+  color: #969696;
+  margin-bottom: 25px;
+}
+
+.page-blog .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats{
+  margin-top: 5px;
+  display: block;
+}
+
+.st_row{
+  font: lighter 14px Open Sans, sans-serif;
+  color: #737272;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #f2f2f2;
+}
+.st_row .f{
+  margin-right: 90px;
+}
+
+.st_row i{
+  width: 20px;
+  font-size: 20px;
+  color: #adacac;
+  margin-right: 20px;
+}
+
+.st_row:nth-child(1){
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.permalink{
+  position: relative;
+  right: -249px;
+}
+
+i.fas.fa-eye,
+i.fas.fa-thumbs-up,
+i.fas.fa-thumbs-down{
+  margin-right: 10px;
+}
+
+.likes{
+  display: flex;
+  align-items: center;
+}
+
+.f{
+  width: 150px;
+}
+
+.review,
+.lukas{
+  margin-right: 5px;
+}
+
+.page-blog article a{
+  margin-top: 25px;
+  border: 1px solid #dcdcdc;
+  width: 98px;
+  height: 38px;
+  font: bold 20px Economica, sans-serif;
+  color: #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.categories{
+  height: 310px;
+}
+
+.categories ul{
+  margin-top: 20px;
+  font-size: 16px;
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #adacac;
+}
+.categories li{
+  padding-bottom: 7px;
+}
+.categories a{
+  color: #535151;
+}
+
+.rec_posts{
+  margin-top: 20px;
+}
+
+.rec_posts img{
+  width: 122px;
+  height: 122px;
+  display: block;
+}
+.rec_posts h4{
+  color: #535151;
+}
+.rec_posts h2{
+  margin-bottom: 20px;
+}
+.rec_posts p{
+  color: #969696;
+}
+
+.rec_posts article:nth-child(2){
+  margin-top: 0px;
+}
+
+.rec_posts article{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.b_text{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-blog footer{
+  margin-top: 5px;
+}

@@ -1,0 +1,66 @@
+/* Header */
+header{
+  min-height: 140px;
+  background: #f1f0f1;
+  padding-top: 30px;
+}
+
+header .container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  width: 270px;
+  height: 113px;
+  background: #2e2d2d;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.bliss{
+  width: 134.5px;
+  font: bold 48px Bebas Neue, sans-serif;
+}
+
+.vert_line{
+  width: 1px;
+  height: 76px;
+  background: #fff;
+  opacity: 0.14;
+}
+
+.italian{
+  width: 134.5px;
+  font: 18px Economica, sans-serif;
+}
+
+.menu{
+  display: flex;
+  font: bold 20px Economica, sans-serif;
+}
+
+.menu li:last-child{
+  margin-right: 0px;
+}
+.menu li{
+  margin-right: 42px;
+}
+
+.menu a{
+  color: #727171;
+  transition: 0.3s;
+}
+
+.menu a:hover{
+  color: #D29043;
+}
+
+.menu .active{
+  color: #aaccaa;
+}
+/*  \Header */

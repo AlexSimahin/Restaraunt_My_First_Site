@@ -1,0 +1,106 @@
+.page-contacts section{
+  margin: 0 auto;
+}
+
+.page-contacts section:nth-child(2){
+  margin: 0 auto;
+  background: #f1f0f1;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.find_us{
+  /* height: 770px; */
+}
+.find_us h2{
+  margin-bottom: 20px;
+}
+
+.map{
+  display: flex;
+}
+.map iframe{
+  margin-right: 30px;
+}
+
+.map_info{
+  margin-top: 25px;
+  width: 870px;
+  color: #969696;
+  margin-bottom: 45px;
+}
+.map_info span{
+  font-weight: bold;
+  color: #535151;
+}
+
+.map_info p:nth-child(1){
+  padding-top: 0;
+}
+.map_info p{
+  padding-top: 25px;
+}
+
+.item{
+  color: #535151;
+  font-size: 16px;
+}
+.item h4{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.item p{
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.feedback{
+  margin-top: 25px;
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback input{
+  width: 270px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #eae8e9;
+  padding-left: 30px;
+  font: 14px Open Sans, sans-serif;
+  color: #737272;
+}
+
+.forms textarea{
+  resize: none;
+  margin-top: 20px;
+  width: 1070px;
+  height: 308px;
+  background: #fff;
+  border: 1px solid #eae8e9;
+  padding-left: 30px;
+  padding-top: 25px;
+  font: 14px Open Sans, sans-serif;
+  color: #737272;
+}
+
+.buttoms{
+  margin-top: 25px;
+  width: 1070px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.buttoms button{
+  border: 1px solid #d3d2d3;
+  background: #f1f0f1;
+  width: 98px;
+  height: 38px;
+  font: bold 20px Economica, sans-serif;
+  color: #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+
+}

@@ -1,0 +1,13 @@
+.sprite1,
+.sprite2,
+.sprite3{
+  animation: divy 10s infinite linear;
+  transform: rotateY(0deg);
+}
+@keyframes divy{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(360deg); 
+  }
